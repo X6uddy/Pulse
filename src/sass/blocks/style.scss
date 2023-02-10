@@ -1,0 +1,13 @@
+@import '../base/variables';
+@import '../blocks/promo';
+@import '../blocks/header';
+@import '../blocks/buttons';
+@import '../blocks/advantages';
+* {
+    font-family: 'MuseoModerno', sans-serif;
+}
+.container {
+    display: block;
+    max-width: 950px;
+    margin: 0 auto; 
+} 
