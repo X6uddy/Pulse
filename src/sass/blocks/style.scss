@@ -5,11 +5,12 @@
 @import '../blocks/advantages';
 @import '../blocks/consultation';
 @import '../blocks/forms';
+@import '../blocks/carousel';
 * {
     font-family: 'MuseoModerno', sans-serif;
 }
 .container {
-    display: block;
+    position: relative;
     max-width: 950px;
     margin: 0 auto; 
 } 
