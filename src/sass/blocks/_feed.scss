@@ -1,0 +1,38 @@
+.feed {
+    min-height: 915px;
+    padding-bottom: 22px;
+    &__head {
+        display: block;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    &-people {
+        display: flex;
+        margin-bottom: 60px;
+        img {
+            display: block;
+            width: 169px;
+            height: 169px;
+        }
+        &__content {
+            text-align: left;
+            margin-left: 60px;
+            .feed__title {
+                font-weight: 700;
+                font-size: 18px;
+                color: $black;
+            }
+            .feed__subtitle {
+                font-weight: 500;
+                font-size: 14px;
+                color: #646464;
+            }
+            .feed__deskr {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+                color: $black;
+            }
+        }
+    }
+}
