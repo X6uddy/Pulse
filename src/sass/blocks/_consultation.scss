@@ -15,4 +15,12 @@
         line-height: 30px;
         color: $white;
     }
+    .error {
+        border: 1px solid $red;
+    }
+    label.error {
+        border: none;
+        color: rgb(29, 187, 140);
+        margin-bottom: 15px;
+    }
 }
