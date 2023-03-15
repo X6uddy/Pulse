@@ -1,18 +1,25 @@
+
+
 @import '../base/variables';
 @import '../base/animations';
-@import '../blocks/promo';
-@import '../blocks/header';
-@import '../blocks/buttons';
-@import '../blocks/advantages';
-@import '../blocks/consultation';
-@import '../blocks/forms';
-@import '../blocks/carousel';
-@import '../blocks/catalog';
-@import '../blocks/feed';
-@import '../blocks/footer';
-@import '../blocks/modal';
-@import '../blocks/media';
-@import '../blocks/pageup';
+
+
+@import './promo';
+@import './header';
+@import './buttons';
+@import './advantages';
+@import './consultation';
+@import './forms';
+@import './carousel';
+@import './catalog';
+@import './feed';
+@import './footer';
+@import './modal';
+@import './media';
+@import './pageup';
+
+@import '../libs/bootstrap-reboot.min';
+@import '../libs/slick';
 * {
     font-family: 'MuseoModerno', sans-serif;
 }
